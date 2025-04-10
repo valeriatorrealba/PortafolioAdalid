@@ -1,0 +1,15 @@
+{
+  "email": "valeria.torrealba@gmail.com",
+  "socialMedia": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/valeriatorrealba/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/valeriatorrealba",
+      "icon": "github"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+#skills {
+    background-color: #f8f9fa;
+    }
+    
+    #skills h2 {
+        font-weight: 700;
+        color: #007bff;
+    }
+    
+    #skills p {
+        color: #6c757d;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    #skills .progress {
+        height: 20px;
+        background-color: #e9ecef;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    #skills .progress-bar {
+        line-height: 20px;
+        font-size: 0.85rem;
+    }
+    

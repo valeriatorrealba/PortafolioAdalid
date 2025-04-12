@@ -19,6 +19,7 @@ const Navbar = () => {
     { name: "Inicio", href: "#home" },
     { name: "Sobre Mí", href: "#about" },
     { name: "Proyectos", href: "#projects" },
+    { name: "Skills", href: "#skills" },
     { name: "Contacto", href: "#contact" },
   ];
 
@@ -31,17 +32,15 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="#home" className="text-xl font-bold text-primary">
-          Portfolio
-        </a>
-
+        <a href="#home" className="text-xl font-bold text-primary">Valeria Torrealba</a>
+        
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
           {navLinks.map((link, index) => (
             <a
               key={index}
               href={link.href}
-              className="text-foreground hover:text-secondary transition-colors"
+              className="text-foreground hover:text-fuchsia-500 transition-colors"
             >
               {link.name}
             </a>

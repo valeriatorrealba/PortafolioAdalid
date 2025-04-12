@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
           {project.tags.map((tag, index) => (
             <span
               key={index}
-              className="bg-secondary/10 text-secondary px-3 py-1 rounded-full text-sm"
+              className="bg-gray-200 text-indigo-500 px-3 py-1 rounded-full text-sm"
             >
               {tag}
             </span>
@@ -31,7 +31,7 @@ const ProjectCard = ({ project }) => {
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-secondary text-white px-4 py-2 rounded-lg text-sm hover:bg-secondary/90 transition-colors"
+            className="bg-indigo-500 text-white px-4 py-2 rounded-lg text-sm hover:bg-fuchsia-500 transition-colors"
           >
             Ver Proyecto
           </a>
@@ -86,7 +86,7 @@ const Projects = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Mis Proyectos</h2>
-          <div className="w-20 h-1 bg-secondary mx-auto mt-4 mb-6"></div>
+          <div className="w-20 h-1 bg-indigo-500 mx-auto mt-4 mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Aquí hay una selección de proyectos en los que he trabajado. Cada
             uno demuestra diferentes habilidades y tecnologías.

@@ -25,7 +25,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Sobre Mí</h2>
-          <div className="w-20 h-1 bg-secondary mx-auto mt-4 mb-6"></div>
+          <div className="w-20 h-1 bg-indigo-500 mx-auto mt-4 mb-6"></div>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-10 items-center">
